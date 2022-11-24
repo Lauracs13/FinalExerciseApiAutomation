@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="endpoint" value="https://637e9ba3cfdbfd9a63b43644.mockapi.io/user"/>
+  <test thread-count="5" name="Map Test(failed)" verbose="0">
+    <classes>
+      <class name="test.BankTransactionsTests">
+        <methods>
+          <include name="firstTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.BankTransactionsTests -->
+    </classes>
+  </test> <!-- Map Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

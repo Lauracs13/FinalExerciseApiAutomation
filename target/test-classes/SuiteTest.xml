@@ -4,10 +4,10 @@
 
     <test name="Map Test" enabled="true">
         <classes>
-            <class name="tests.MapTest"/>
+            <class name="test.BankTransactionsTests"/>
         </classes>
     </test>
-    <test name="Privacy and Legal Test" enabled="true">
+  <!--  <test name="Privacy and Legal Test" enabled="true">
         <classes>
             <class name="tests.PrivacyAndLegalTest"/>
         </classes>
@@ -17,6 +17,6 @@
         <classes>
             <class name="tests.AddPlansTest"/>
         </classes>
-    </test>
+    </test>-->
 
 </suite>

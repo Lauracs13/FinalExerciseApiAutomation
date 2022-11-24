@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.399 sec <<< FAILURE! - in TestSuite
+firstTest(test.BankTransactionsTests)  Time elapsed: 1.887 sec  <<< FAILURE!
+java.lang.RuntimeException: 
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `base.model.PojoBankUser` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (String)"{"name":"D'angelo","lastName":"Ferry","accountNumber":"10147066","amount":"912.97","transactionType":"withdrawal","email":"Carmella18@hotmail.com","active":false,"country":"Cambridgeshire","telephone":"991.585.7365 x9589","id":"1"}"; line: 1, column: 2]
+	at test.BankTransactionsTests.firstTest(BankTransactionsTests.java:14)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: 
+Cannot construct instance of `base.model.PojoBankUser` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (String)"{"name":"D'angelo","lastName":"Ferry","accountNumber":"10147066","amount":"912.97","transactionType":"withdrawal","email":"Carmella18@hotmail.com","active":false,"country":"Cambridgeshire","telephone":"991.585.7365 x9589","id":"1"}"; line: 1, column: 2]
+	at test.BankTransactionsTests.firstTest(BankTransactionsTests.java:14)
+

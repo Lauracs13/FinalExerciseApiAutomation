@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.399" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LAURA~1.CAB\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\InvGate\Insight Agent;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Maven\apache-maven-3.8.6\bin;C:\Users\laura.cabezas\AppData\Local\Android\Sdk\build-tools;C:\Users\laura.cabezas\AppData\Local\Android\Sdk\platform-tools;C:\Users\laura.cabezas\AppData\Local\Android\Sdk\tools;C:\Program Files\nodejs\;C:\Users\laura.cabezas\AppData\Local\Microsoft\WindowsApps;C:\Users\laura.cabezas\AppData\Local\Android\Sdk\build-tools;C:\Users\laura.cabezas\AppData\Local\Android\Sdk\platform-tools;C:\Users\laura.cabezas\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Users\laura.cabezas\AppData\Roaming\npm;C:\Users\laura.cabezas\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\laura.cabezas"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="laura.cabezas"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="firstTest" classname="test.BankTransactionsTests" time="1.887">
+    <failure message="com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `base.model.PojoBankUser` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)&#10; at [Source: (String)&quot;{&quot;name&quot;:&quot;D&apos;angelo&quot;,&quot;lastName&quot;:&quot;Ferry&quot;,&quot;accountNumber&quot;:&quot;10147066&quot;,&quot;amount&quot;:&quot;912.97&quot;,&quot;transactionType&quot;:&quot;withdrawal&quot;,&quot;email&quot;:&quot;Carmella18@hotmail.com&quot;,&quot;active&quot;:false,&quot;country&quot;:&quot;Cambridgeshire&quot;,&quot;telephone&quot;:&quot;991.585.7365 x9589&quot;,&quot;id&quot;:&quot;1&quot;}&quot;; line: 1, column: 2]" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `base.model.PojoBankUser` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (String)"{"name":"D'angelo","lastName":"Ferry","accountNumber":"10147066","amount":"912.97","transactionType":"withdrawal","email":"Carmella18@hotmail.com","active":false,"country":"Cambridgeshire","telephone":"991.585.7365 x9589","id":"1"}"; line: 1, column: 2]
+	at test.BankTransactionsTests.firstTest(BankTransactionsTests.java:14)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: 
+Cannot construct instance of `base.model.PojoBankUser` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (String)"{"name":"D'angelo","lastName":"Ferry","accountNumber":"10147066","amount":"912.97","transactionType":"withdrawal","email":"Carmella18@hotmail.com","active":false,"country":"Cambridgeshire","telephone":"991.585.7365 x9589","id":"1"}"; line: 1, column: 2]
+	at test.BankTransactionsTests.firstTest(BankTransactionsTests.java:14)
+</failure>
+  </testcase>
+</testsuite>

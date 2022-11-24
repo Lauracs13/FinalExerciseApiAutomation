@@ -1,11 +1,4 @@
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\util\screens\BaseScreen.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\tests\AddPlansTest.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\screens\MapScreen.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\screens\MenuScreen.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\screens\DashboardScreen.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\screens\PrivacyAndLegalScreen.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\util\tests\BaseMobileTest.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\screens\TutorialScreen.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\tests\PrivacyAndLegalTest.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\util\ConfigCapabilities.java
-C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\tests\MapTest.java
+C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\base\model\PojoBankUser.java
+C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\base\requests\Request.java
+C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\test\BankTransactionsTests.java
+C:\Users\laura.cabezas\Documents\TAE Training\API_AUTOMATION\FinalExerciseAPIAutomation\src\test\java\base\utils\BaseTest.java

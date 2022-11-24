@@ -1,0 +1,4 @@
+test\BankTransactionsTests.class
+base\model\PojoBankUser.class
+base\utils\BaseTest.class
+base\requests\Request.class

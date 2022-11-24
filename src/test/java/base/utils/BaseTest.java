@@ -1,5 +1,17 @@
 package base.utils;
 
+import base.requests.Request;
+import org.apache.log4j.Logger;
+import org.testng.annotations.BeforeMethod;
+
+
 public class BaseTest {
-//https://637e9ba3cfdbfd9a63b43644.mockapi.io/user
+
+    protected Request request;
+
+    @BeforeMethod(alwaysRun = true)
+    public void enviromentSetUp(){
+        request = new Request();
+    }
+    public Logger log = Logger.getLogger(BaseTest.class);
 }
