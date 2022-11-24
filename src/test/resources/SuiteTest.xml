@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+    <test name="Map Test" enabled="true">
+        <classes>
+            <class name="tests.MapTest"/>
+        </classes>
+    </test>
+    <test name="Privacy and Legal Test" enabled="true">
+        <classes>
+            <class name="tests.PrivacyAndLegalTest"/>
+        </classes>
+    </test>
+
+    <test name="Add Plans Test" enabled="true">
+        <classes>
+            <class name="tests.AddPlansTest"/>
+        </classes>
+    </test>
+
+</suite>
