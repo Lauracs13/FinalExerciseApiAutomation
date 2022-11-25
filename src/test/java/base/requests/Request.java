@@ -21,8 +21,6 @@ public class Request {
     public int getUsersSize() {
         List<PojoBankUser> users = getUsers();
         int usersSize = users.size();
-        System.out.println("Array size of Users: " + usersSize);
-
         return usersSize;
     }
 
@@ -47,7 +45,6 @@ public class Request {
                     response = RestAssured.given()
                             .contentType("application/json")
                             .delete("/" + allIds.get(i));
-                    System.out.println(response.getStatusCode());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -80,19 +77,19 @@ public class Request {
             ));
         }
         PojoBankUser userToDuplicate = newUsers.get(0);
-      for(int i = 0; i < quantityDuplicate; i++){
-          newUsers.add(userToDuplicate);
-      }
+        for (int i = 0; i < quantityDuplicate; i++) {
+            newUsers.add(userToDuplicate);
+        }
         return newUsers;
     }
 
-    public boolean postNewUsersWithUniqueEmailOnly(int quantityUnique, int quantityDuplicate){
+    public boolean postNewUsersOnlyWithUniqueEmails(int quantityUnique, int quantityDuplicate) {
         HashSet<String> emailsAlreadyPosted = new HashSet<>();
         List<PojoBankUser> randomUsers = randomUsersToCreate(quantityUnique, quantityDuplicate);
-        for (int i = 0; i < randomUsers.size(); i++){
+        for (int i = 0; i < randomUsers.size(); i++) {
             PojoBankUser newUser = randomUsers.get(i);
             String newUserEmail = newUser.getEmail();
-            if(!emailsAlreadyPosted.contains(newUserEmail)){
+            if (!emailsAlreadyPosted.contains(newUserEmail)) {
                 Response response = given()
                         .contentType("application/json")
                         .body(newUser)
@@ -101,11 +98,41 @@ public class Request {
                 emailsAlreadyPosted.add(newUserEmail);
             }
         }
-    /*    System.out.println(emailsAlreadyPosted.size());
-        return emailsAlreadyPosted.size();*/
         int emailsAlreadyPostedSize = emailsAlreadyPosted.size();
         boolean result = Objects.equals(emailsAlreadyPostedSize, quantityUnique);
         return result;
     }
 
+    public boolean usersHaveUniqueEmails() {
+        HashSet<String> emailsAlreadyPosted = new HashSet<>();
+        List<PojoBankUser> users = getUsers();
+        for (int i = 0; i < users.size(); i++) {
+            PojoBankUser user = users.get(i);
+            String userEmail = user.getEmail();
+            if (!emailsAlreadyPosted.contains(userEmail)) {
+                emailsAlreadyPosted.add(userEmail);
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void setEmailToBeRepeated() {
+        List<PojoBankUser> users = getUsers();
+        String emailToBeRepeated = users.get(0).getEmail();
+        users.get(1).setEmail(emailToBeRepeated);
+        PojoBankUser userUpdated = users.get(1);
+        Response response = given().contentType("application/json").body(userUpdated).when().put(ENDPOINT + "/" + userUpdated.getId());
+    }
+
+    public int updateAndExistingAccountNumber() {
+        int userIndexToBeUpdated = (int) (Math.random() * getUsersSize());
+        PojoBankUser userToBeUpdated = getUsers().get(userIndexToBeUpdated);
+        Faker faker = new Faker();
+        String fakedAccountNumber = faker.finance().creditCard();
+        userToBeUpdated.setAccountNumber(fakedAccountNumber);
+        Response response = given().contentType("application/json").body(userToBeUpdated).when().put(ENDPOINT + "/" + userIndexToBeUpdated);
+        return response.getStatusCode();
+    }
 }
